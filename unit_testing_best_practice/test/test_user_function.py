@@ -1,7 +1,7 @@
 import pytest
 import io
 from sys import path as syspath
-syspath.append("DSTI_MLOPS_LAB03CT/unit_testing_best_practice/src")
+syspath.append("unit_testing_best_practice/src")
 from user_function.py import *
 
 def test_email_with_user_input_no_at_sign(monkeypatch):
