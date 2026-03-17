@@ -3,7 +3,7 @@ import io
 import sys
 # Always run from unit_testing_best_practice/test
 sys.path += ['DSTI_MLOPS_LAB03CT/unit_testing_best_practice/src']
-from user_function import *
+from user_function.py import *
 
 def test_email_with_user_input_no_at_sign(monkeypatch):
     monkeypatch.setattr('sys.stdin', io.StringIO('petra.adaltas.com'))
